@@ -1,0 +1,63 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: linear-gradient(  transparent, #008000);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb :hover {
+    background-color: #f00;
+}
+
+.header {
+    font-size: 22px;
+    width: 100%;
+    top: 0;
+    margin: 0;
+}
+
+.note { 
+    color: #000;
+    font-size: 15px;
+}
+
+.speed_div {
+    float: left;
+}
+.speed {
+    width: 200px;
+    border-radius: 100px;
+}
+#speed {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.play {
+    width: 150px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    height: 50px;
+}
+
+.volume_div {
+    float: right;
+}
+.volume {
+    width: 200px;
+    border-radius: 100px;
+}
+#volume {
+    font-size: 20px;
+    margin: 15px;
+}
+
+canvas {
+    margin-top: 50px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
